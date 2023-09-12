@@ -1,0 +1,188 @@
+#institucion,
+#adicciones,
+#faltas,
+#antecedentes,
+#mantener,
+#ficha,
+#otros-content,
+#vehiculos-content,
+#drogas-content,
+#infoConocido,
+#obj-recuperados-image,
+#sectorContent,
+#alertEditSena,
+#alertEditElemento,
+#alertEditArma,
+#alertEditDroga,
+#alertEditObjeto,
+#alertEditHorario,
+#alertEditAccesorio,
+#alertEditInstitucion,
+#alertEditAdiccion,
+#alertEditFaltaAdmin,
+#alertEditAntecedente,
+#loading-spinner,
+.check-tab,
+.btn-tab-getIndex,
+#loading-spinner_2,
+.span-message,
+.list-group,
+
+/*#mapDivPeticionario,*/
+
+.list-group-elementos-message,
+#btn_rostro_izquierdo,
+#btn_rostro_frente,
+#btn_rostro_derecho,
+#btn_cuerpo_izquierdo,
+#btn_cuerpo_frente,
+#btn_cuerpo_derecho,
+#msg_ubicacionHechosFalta,
+#btn_obj_recuperados {
+    display: none;
+}
+
+#map {
+    height: 100%;
+}
+
+.disabled-link {
+    pointer-events: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.valor-campo {
+    font-weight: bold;
+    color: var(--grey-darken-2);
+    display: block;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 1px;
+    border-color: #cfd8dc;
+}
+
+.center-all {
+    justify-content: center;
+}
+
+.form_title {
+    font-size: 20px;
+}
+
+#map,
+#map1,
+#map2,
+#map3,
+#map4 {
+    height: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    #map,
+    #map1,
+    #map2,
+    #map3,
+    #map4 {
+        min-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .center-movil-flex {
+        justify-content: center !important;
+    }
+    #getDataElement {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .button-movil-plus {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #photoFyhCapture,
+    #canvas-photo-mobile,
+    .senas-canvas-mobile {
+        display: none;
+    }
+}
+
+.advise-span {
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.material-icons.md-15 {
+    font-size: 18px;
+}
+
+.span-message {
+    color: red;
+}
+
+.card-fa {
+    background-color: #fafafa;
+}
+
+.btn-colllapside {
+    color: var(--primary);
+}
+
+.btn-colllapside:hover {
+    color: var(--primary) !important;
+}
+
+.btn-colllapside:focus {
+    outline: 0px dotted !important;
+    box-shadow: 0 0 0 0.2rem #FAFAFA !important;
+}
+
+.mybg-header {
+    background-color: #fafafa !important;
+}
+
+.my-width {
+    width: 40% !important;
+}
+
+.finger-card {
+    width: 70% !important;
+}
+
+.card {
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .card {
+        height: 100%;
+    }
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#div_ruta_1,
+#div_unidad_1,
+#div_negocio_1 {
+    display: none;
+}
+
+div.disabled {
+    pointer-events: none;
+    /* for "disabled" effect */
+    opacity: 0.5;
+}

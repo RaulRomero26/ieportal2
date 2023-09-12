@@ -1,0 +1,151 @@
+/*body{
+    overflow-x: hidden;
+}*/
+
+.myDisplay {
+    color: var(--h-color);
+    /*font-weight: 700;*/
+}
+
+.btn-opacity2 {
+    color: var(--grey-darken-2);
+}
+
+.btn-opacity2:hover {
+    color: var(--grey-darken-2) !important;
+    background-color: var(--grey-lighten-2);
+}
+
+.thead-myTable {
+    background-color: var(--table-color);
+    color: var(--grey-lighten-5);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.my-button {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.btn-opacity {
+    color: var(--primary);
+}
+
+.btn-opacity:hover {
+    color: var(--primary) !important;
+    background-color: var(--primary_opacity);
+}
+
+.my-button .material-icons {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.page-link {
+    color: var(--grey-darken-3);
+}
+
+.page-item.active .page-link {
+    background-color: var(--grey-lighten-1);
+    border-color: var(--grey-lighten-1);
+}
+
+.myLinks .material-icons:hover {
+    color: var(--primary_color);
+}
+
+.check {
+    color: var(--blue-darken-2);
+}
+
+.close {
+    color: var(--primary_color);
+}
+
+@media (max-width: 576px) {
+    #buttonsExport {
+        margin-bottom: 12px !important;
+    }
+    .my-button {
+        margin-bottom: 12px !important;
+    }
+}
+
+.search {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.search:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.search:active {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.btn-icon {
+    margin-top: 10px;
+}
+
+.edit-icon .material-icons {
+    color: var(--grey-darken-1);
+}
+
+.delete-icon .material-icons {
+    color: var(--grey-darken-1);
+}
+
+.btn-delete {
+    background-color: unset;
+}
+
+.btn-edit {
+    background-color: unset;
+}
+
+.btn-delete,
+.btn-edit {
+    transition: all .05s ease-in-out;
+}
+
+.btn-delete:hover,
+.btn-edit:hover {
+    transform: scale(1.3);
+}
+
+.btn-delete .material-icons:hover,
+.btn-edit .material-icons:hover {
+    color: var(--icon-color) !important;
+}
+
+textarea {
+    /*resize: none;*/
+}
+/*Se cambio el color a verde, ya que pone el boton con fondo blanco*/
+#send_button {
+    color: var(--grey-lighten-5);
+    background-color: #008000;
+}
+
+#cancel_button {
+    color: var(--grey-lighten-5);
+    background-color: var(--red-darken-3);
+}
+
+
+/*#operaciones > button .btn-edit{
+    margin-right: 5px;
+}*/

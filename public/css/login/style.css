@@ -1,0 +1,50 @@
+body{
+    background-image: url('../../media/images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h5 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#nav_login {
+    height: 50px;
+}
+
+.btn-ssc {
+    color: #fff;
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+}
+
+.btn-ssc :hover {
+    color: #fff;
+    background-color: var(--primary_color) !important;
+    border-color: var(--primary_color) !important;
+}
+
+.card-footer {
+    font-size: 12px;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 92VH;
+}
+
+.container-center-backgroud{
+    background-color: #fff;
+}
+
+.form {
+    width: 500px;
+    overflow-x: hidden;
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}

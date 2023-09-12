@@ -1,0 +1,13 @@
+
+.card { 
+	transition: all .2s ease-in-out;
+	align-items: center;
+}
+
+.card:hover { 
+	transform: scale(1.1);
+}
+
+.my-width{
+	width: 90% !important;
+}

@@ -1,0 +1,142 @@
+body{
+	background-color: var(--grey-lighten-4);
+}
+p{
+	color: var(--grey-darken-2);
+}
+#backButton{
+	color: var(--grey-lighten-5);
+	background-color: var(--grey-darken-2);
+}
+#mySubmit {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+#id_container1{
+	border: solid 5px;
+	border-color: transparent;
+	/* the border will curve into a 'D' */  
+	border-radius: 10px 10px 10px 10px;
+	background-color: var(--grey-lighten-4);
+}
+
+#img_user{
+	/*max-width: 200px;*/
+	max-height: 250px;
+}
+
+p .material-icons{
+	color: var(--primary_color);
+	font-size: 40px;
+}
+.pass-icon{
+	color: var(--primary_color);
+	font-size: 40px;
+}
+
+p i, p span, p strong{
+	vertical-align: middle;
+}
+
+td .check{
+	color: var(--green-darken-1);
+}
+td .close-icon{
+	color: var(--red-darken-3);
+}
+
+.card{
+	background-color: var(--grey-lighten-5);
+	border-radius: 0.5rem;
+}
+
+.card-header:first-child{
+	/*background-color: var(--primary_color);*/
+	background-color: var(--grey-lighten-5);
+	color: var(--grey-darken-2);
+	/*color: var(--grey-lighten-5);*/
+	border-radius:  0.5rem 0.5rem 0rem 0rem;
+	border-bottom-color: var(--grey-lighten-5);
+}
+
+.card-footer, .card-footer h6{
+	background-color: var(--grey-lighten-5);
+	color: var(--grey-darken-2);
+	
+}
+.card-footer:last-child {
+    border-radius:  0rem 0rem 0.5rem 0.5rem;
+}
+
+
+strong{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+@media (max-width: 992px){
+    p{
+    	text-align: center;
+    }
+    #id_title_info{
+    	text-align: center;
+    }
+    #id_info_cuenta{
+        margin-bottom: 45px;
+    }
+    #id_permisos_cuenta{
+    	margin-bottom: 45px;
+    }
+    #img_contenedor{
+		margin-bottom: 35px;
+	}
+	.preview {
+	    border: 1px solid #ddd;
+	    padding: 5px;
+	    border-radius: 2px;
+	    background: #fff;
+	    max-width: 150px;
+	    
+	}
+}
+
+/*CSS de edición de imagen*/
+
+.preview {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    background: #fff;
+    max-width: 250px;
+    
+}
+
+.preview img {
+    width: 100%;
+    display: block;
+}
+
+/*CSS para boton del password del usuario*/
+
+.view-password {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.view-password:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.view-password:active {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}

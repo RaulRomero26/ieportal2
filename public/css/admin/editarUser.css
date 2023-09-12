@@ -1,0 +1,65 @@
+body {
+    background-color: var(--grey-lighten-4)
+}
+
+.display-4 {
+    color: var(--grey-darken-2) !important;
+}
+
+#id_container1 {
+    border: solid 5px;
+    border-color: transparent;
+    /* the border will curve into a 'D' */
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--grey-lighten-5);
+}
+
+#backButton {
+    color: var(--grey-lighten-5);
+    background-color: var(--grey-darken-2);
+}
+
+#mySubmit {
+    color: var(--grey-lighten-5);
+    background-color: var(--button-color);
+}
+
+.view-password {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.view-password:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.view-password:active {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.thead-myTable {
+    background-color: var(--table-color);
+    color: var(--grey-lighten-5);
+}
+
+.preview {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    background: #fff;
+    max-width: 200px;
+}
+
+.preview img {
+    width: 100%;
+    display: block;
+}

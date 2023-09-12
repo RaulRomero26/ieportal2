@@ -1,0 +1,207 @@
+/*---- ----- ----- -----    filtros rapidos    ----- ----- ----- ----*/
+
+.div_mark {
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: var(--primary);
+    border-radius: 10px;
+    height: 100px;
+}
+
+.remision_banner {
+    border-right: solid 1px#b7b7b6;
+}
+
+.div_mark .row a.col-3 p {
+    margin-bottom: 0;
+}
+
+.div_mark .row a.col-3 p.title {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.div_mark .row a.col-3 p.subtitle {
+    color: var(--secondary);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.search {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.search:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.search:active {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.modal-span {
+    font-weight: bold;
+    color: #6F6F6E;
+    font-size: 12px;
+}
+
+
+/*th {
+    color: #6F6F6E;
+}*/
+
+.material-icons.md-30 {
+    font-size: 30px;
+}
+
+#map {
+    height: 100%;
+}
+
+
+/*CSS FILTRADO Y BÚSQUEDA*/
+
+.title-width {
+    color: var(--h-color);
+    font-weight: 700;
+}
+
+.btn-opacity {
+    color: var(--primary);
+}
+
+.btn-opacity:hover {
+    color: var(--primary) !important;
+    background-color: var(--primary_opacity);
+}
+
+.btn-filtro>i {
+    color: var(--icon-color);
+}
+
+.btn-filtro>span {
+    color: var(--grey-darken-1);
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: var(--grey-lighten-5);
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.filter-content {
+    text-align: justify;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid var(--grey-lighten-2);
+    /* color: var(--grey-lighten-1); */
+}
+
+
+/*CSS para Chips a mano*/
+
+.chip {
+    display: inline-block;
+    padding: 0 10px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    color: var(--grey-lighten-5);
+    background-color: var(--icon-color);
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: var(--grey-lighten-5);
+    font-weight: bold;
+    /*float: right;*/
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+/*CSS para Tables*/
+
+.thead-myTable {
+    background-color: var(--table-color);
+    color: var(--grey-lighten-5);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.myLinks .material-icons:hover {
+    color: var(--icon-color);
+    transform: scale(1.5);
+}
+
+.myLinks .material-icons {
+    transition: all .2s ease-in-out;
+    color: var(--grey-darken-2);
+}
+
+
+/*CSS para button de search*/
+
+.search {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 0.4s;
+    -webkit-transition: -webkit-filter 0.5s;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.search:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.search:active {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--grey-darken-1);
+}
+
+#id_dropdownColumns {
+    min-width: 14rem;
+}
+
+.dropzone {
+    border: 2px dashed #C1C1C1;
+    background: none !important;
+}

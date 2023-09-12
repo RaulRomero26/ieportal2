@@ -1,0 +1,93 @@
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label,
+.btn-photo {
+    cursor: pointer;
+}
+
+#photos-content h5 span {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.deleteFile {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.my-p {
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+.my-cfh-width {
+    max-width: 100px;
+}
+
+.status_cap {
+    font-size: 14px;
+    color: #424242;
+}
+
+.status_res {
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+#icon-rostro_izquierdo,
+#icon-rostro_frente,
+#icon-rostro_derecho{
+    display:  none;
+}
+
+.dropzone {
+    border: 2px dashed #C1C1C1;
+    background: none !important;
+}
+.dz-error {
+    display: none;
+}
+
+.dz-message .dz-button{
+    color: #666;
+}
+
+.dz-remove{
+    margin-top: 5px;
+    padding: 5px 0px !important;
+    color: #DC2626;
+    text-decoration: none !important;
+    background: #FECACA;
+    border-radius: 5px;
+}
+
+.dz-image{
+    z-index: 1 !important;
+}
+
+.dz-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+#alertEditEntrevista,
+#alertEditFoto,
+#alertEditVideo{
+    display: none;
+}

@@ -1,0 +1,4 @@
+Options -Indexes 
+<FilesMatch "\.(jpg|jpeg|png)$">
+FileETag MTime Size
+</FilesMatch>

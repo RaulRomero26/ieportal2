@@ -1,0 +1,91 @@
+body {
+    background-color: var(--grey-lighten-4);
+}
+
+p {
+    color: var(--grey-darken-2);
+}
+
+#backButton {
+    color: var(--grey-lighten-5);
+    background-color: var(--grey-darken-2);
+}
+
+#id_container1 {
+    border: solid 5px;
+    border-color: transparent;
+    /* the border will curve into a 'D' */
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--grey-lighten-4);
+}
+
+#img_user {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+td .material-icons {
+    color: var(--icon-color);
+    font-size: 30px;
+}
+
+td span {
+    color: var(--grey-darken-1);
+}
+
+td .check_icon {
+    color: var(--green-darken-1);
+}
+
+td .close_icon {
+    color: var(--red-darken-3);
+}
+
+.card {
+    background-color: var(--grey-lighten-5);
+    border-radius: 0.5rem;
+}
+
+.card-header:first-child {
+    /*background-color: var(--primary_color);*/
+    background-color: var(--grey-lighten-5);
+    color: var(--grey-darken-2);
+    /*color: var(--grey-lighten-5);*/
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border-bottom-color: var(--grey-lighten-5);
+}
+
+.card-footer,
+.card-footer h6 {
+    background-color: var(--grey-lighten-5);
+    color: var(--grey-darken-2);
+}
+
+.card-footer:last-child {
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--grey-darken-2);
+}
+
+@media (max-width: 768px) {
+    p {
+        text-align: center;
+    }
+    #id_title_info {
+        text-align: center;
+    }
+    #id_info_cuenta {
+        margin-bottom: 45px;
+    }
+    #id_permisos_cuenta {
+        margin-bottom: 45px;
+    }
+}
+
+#id_modo_admin {
+    color: var(--grey-darken-2);
+}

@@ -1,0 +1,512 @@
+/*---- ----- ----- -----    Estilos y configuraciones globales    ----- ----- ----- ----*/
+
+
+/*---- ----- ----- -----    tipografias    ----- ----- ----- ----*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');*/
+
+@font-face {
+    
+        font-family: "HelveticaNeue-Roman";
+        src: url('../../media/font/HelveticaNeue-Roman.otf') format('truetype');
+        }
+
+/*---- ----- ----- -----    Variables root    ----- ----- ----- ----*/
+
+:root {
+    --nav-color: #2E8AF5 ;
+    --active_color: #2E8AF5;
+    --primary_opacity: #00287e63;
+    --primary_opacity2: #00287ed8;
+    /* Colores importantes de la aplicación */
+    --bg_body: #fafafa;
+    --button-color: #00A8AC;
+    --h-color: #010A13;
+    --icon-color: #7F90BC;
+    --table-color: #2E8AF5;
+    --span-rem: #7F90BC;
+    --hover-color: #ede7f6;
+}
+
+h4,
+h5,
+h5,
+h6 {
+    color: var(--h-color);
+}
+
+#sidebar,
+#sidenav_p,
+#nav_login {
+    background-color: var(--nav-color);
+}
+
+
+/*---- ----- ----- -----    body    ----- ----- ----- ----*/
+
+body {
+    background: var(--bg_body);
+    font-family: "HelveticaNeue-Roman";
+    font-weight: 400 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.smalltd{
+    max-width: 180px;
+}
+.smallfont{
+    font-size: 80%;
+}
+
+/*---- ----- ----- -----    paragraph_title    ----- ----- ----- ----*/
+
+.paragraph-title h5 {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.paragraph-title .btn-opacity {
+    color: var(--primary);
+}
+
+.paragraph-title .btn-opacity:hover {
+    color: var(--primary) !important;
+    background-color: var(--primary_opacity);
+}
+
+.paragraph-title h5 a {
+    color: var(--h-color);
+}
+
+.paragraph-title h5 span {
+    color: var(--secondary);
+}
+
+
+/*---- ----- ----- -----    filters-colums-search-export   ----- ----- ----- ----*/
+
+.filters .col-md-3 div img,
+.filters .col-md-3 i {
+    color: var(--primary);
+}
+
+.filters .col-md-3 p {
+    margin-bottom: 0;
+    color: var(--secondary);
+    font-weight: 300;
+}
+
+.filters .col-md-3 i {
+    color: var(--white);
+    font-size: 30px;
+}
+
+.filters .col-md-3 a svg {
+    color: var(--primary) !important;
+}
+
+.filters .col-md-3 a span {
+    color: var(--secondary);
+}
+
+.filters .col-md-3 a[aria-expanded="true"] {
+    background: none !important;
+}
+
+.dropdown-menu {
+    padding: 0.5rem !important;
+}
+
+.filters .col-md-2 .label-select p {
+    margin-bottom: 0;
+    color: var(--white);
+    font-size: 12px;
+}
+
+.filters .col-md-2 .label-select {
+    background-color: var(--primary);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.filters .col-md-2 .label-select button {
+    color: var(--white);
+    font-size: 15px;
+}
+
+
+/*---- ----- ----- -----    Table    ----- ----- ----- ----*/
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+
+/*---- ----- ----- -----    Styles tabs    ----- ----- ----- ----*/
+
+.nav-tabs .nav-link.active {
+    background-color: var(--bg_body);
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link {
+    font-size: 16px;
+    color: var(--secondary);
+    padding: 8px 8px;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.material-icons.ssc {
+    color: var(--icon-color) !important;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-30 {
+    font-size: 30px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #6F6F6E;
+    background-color: #fafafa;
+    border: 0px solid white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #6F6F6E;
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+}
+
+.page-item.disabled .page-link {
+    z-index: 3;
+    color: #6F6F6E;
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+.modal-header {
+    background-color: var(--nav-color);
+}
+
+.modal-header h6 {
+    color: #fff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.custom-input_dt {
+    background-color: #fafafa;
+    font-weight: bold;
+    color: #6F6F6E;
+    font-size: 14px;
+    border-style: hidden;
+}
+
+.custom-input_dt:focus {
+    background-color: #fafafa;
+    border-style: hidden;
+}
+
+input:focus,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.fecha {
+    width: 150px;
+}
+
+.hora {
+    width: 150px;
+}
+
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+input[type=password]::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--grey-lighten-1);
+    opacity: 1.0;
+    /* Firefox */
+}
+
+legend,
+fieldset .form-check label {
+    color: var(--secondary);
+}
+
+.form-check-label {
+    color: var(--secondary);
+}
+
+.custom-file-label::after {
+    content: "Buscar";
+}
+
+.url {
+    color: var(--nav_primary_color);
+}
+
+.url:hover {
+    color: var(--nav_primary_color);
+}
+
+
+/*---- ----- ----- -----    btn disabled    ----- ----- ----- ----*/
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: var(--span-rem);
+    border-color: var(--primary_opacity);
+}
+
+
+/*  vertical align middle*/
+
+.v-a-middle {
+    vertical-align: middle !important;
+}
+
+
+/*---------text-divider---------*/
+
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: .3rem;
+    /* set a customizable gap between label and lines */
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+}
+
+
+/*--------------------btn opacity-------------*/
+
+.btn-opacity {
+    color: var(--primary);
+}
+
+.btn-opacity:hover {
+    color: var(--primary) !important;
+    background-color: var(--primary_opacity);
+}
+
+
+/*--------------------display flex/none-------------*/
+
+.mi_hide {
+    display: none;
+}
+
+.span_error {
+    font-size: 11px;
+    color: #e53935;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    text-align: center;
+}
+
+
+/*-------------------------Sticky head and fields for tables----------------------*/
+
+.sticky_head {
+    position: sticky;
+    right: 0px;
+    background-color: var(--table-color);
+}
+
+.sticky_field {
+    position: sticky;
+    right: 0px;
+    background-color: var(--grey-lighten-5);
+}
+
+
+/*-------------------------buttons primary----------------------*/
+
+.mibtn-primary {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mibtn-primary:hover {
+    color: var(--grey-lighten-3);
+    background-color: var(--primary_color);
+}
+
+.mibtn-outline-primary {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mibtn-outline-primary:hover {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_opacity2);
+    border: 1px solid var(--primary_color);
+}
+
+.mibtn-secondary {
+    color: var(--grey-lighten-5);
+    background-color: var(--grey-darken-1);
+}
+
+.mibtn-secondary:hover {
+    color: var(--grey-lighten-3);
+    background-color: var(--grey-darken-1);
+}
+
+
+/*-------------------------position custom checks---------------------------*/
+
+.custom-control {
+    position: unset;
+}
+
+
+/* border table */
+
+.table td {
+    border: 1px solid var(--grey-lighten-2);
+}
+
+.btn-detenidos-juridico{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+}
+
+.btn-detenidos-juridico:hover{
+    height: 54px;
+    width: 54px;
+    transition: all 0.5s;
+}
+
+.detenidos_juridoco_content{
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+}
+
+.detenidos-content{
+    background-color: white;
+    position: relative;
+    padding: 5px 10px;
+    width: 50px;
+    overflow-y: scroll;
+    max-height: 500px;
+    border-radius: 8px;
+    margin-top: 60px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16), 0px 2px 10px rgba(0, 0, 0, 0.12);
+    transition: 1s;
+    right: -420px;
+    scroll-behavior: smooth;
+}
+
+.detenidos-content legend{
+    font-size: 15px;
+}
+
+.detenidos-content fieldset{
+    margin-bottom: 10px;
+}
+
+legend{
+    text-align: center;
+    padding: 0px 5px;
+    width: auto;
+    color: var(--h-color);
+    margin-bottom: 0px;
+}
+
+fieldset{
+    border-radius: 8px;
+}
+
+.button-agregar-detenido{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+.autocomplete {
+    background: #fafafa;
+    z-index: 1000;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(50, 50, 50, 0.6);
+    font-size: 12px;
+}
+
+.autocomplete > div:hover:not(.group), .autocomplete > div.selected {
+    font-size: 12px;
+    background: var(--hover-color);
+    cursor: pointer;
+}
+
+.logo{
+    max-width: 480px;
+}
