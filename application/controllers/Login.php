@@ -14,7 +14,7 @@
             }
             /* Se añade el llamado al archivo extra que contiene la función para hacer visible la contraseña*/
             $data = [
-                'titulo'    => 'IE Admin | Inicio de sesión',
+                'titulo'    => 'IE Portal | Inicio de sesión',
                 'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/login/style.css">',
                 'extra_js'  => '<script src="' . base_url . 'public/js/login/principal.js"></script>'
             ];

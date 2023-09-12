@@ -32,7 +32,7 @@ class Catalogos extends Controller
 
         //Titulo de la pagina y archivos css y js necesarios
 		$data = [
-            'titulo'    => 'IE ADMIN | Catálogos',
+            'titulo'    => 'IE Portal | Catálogos',
             'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/system/catalogos/index.css">',
             'extra_js'  => '<script src="'. base_url . 'public/js/system/catalogos/index.js"></script>'
         ];
@@ -56,7 +56,7 @@ class Catalogos extends Controller
 
             //Titulo de la pagina y archivos css y js necesarios
 			$data = [
-                'titulo'    => 'IE ADMIN | Catálogos',
+                'titulo'    => 'IE Portal  | Catálogos',
                 'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/system/catalogos/index.css">
                 				<link rel="stylesheet" href="'. base_url . 'public/css/system/catalogos/crud.css">',
                 'extra_js'  => '<script src="'. base_url . 'public/js/system/catalogos/crud.js"></script>'

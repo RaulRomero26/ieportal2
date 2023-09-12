@@ -24,7 +24,7 @@ class Clases extends Controller
         }
 
         $data = [
-            'titulo'    => 'IE Admin | Clases',
+            'titulo'    => 'IE Portal  | Clases',
             'extra_css' => '<link rel="stylesheet" href="' . base_url . 'public/css/system/clases/index.css">',
             'extra_js'  => '<script src="' . base_url . 'public/js/system/clases/index.js"></script>'
         ];
@@ -123,7 +123,7 @@ class Clases extends Controller
         ];
 
         $data = [
-            'titulo'    => 'IE ADMIN | Crear Clase',
+            'titulo'    => 'IE Portal  | Crear Clase',
             'extra_css' => '<link rel="stylesheet" href="' . base_url . 'public/css/system/Remisiones/index.css">',
             'extra_js'  =>  '<script src="' . base_url . 'public/js/system/clases/tabla_alumnos.js"></script>'.
                             '<script src="' . base_url . 'public/js/system/clases/tabla_horarios_clase.js"></script>'.
@@ -150,7 +150,7 @@ class Clases extends Controller
         ];
 
         $data = [
-            'titulo'    => 'IE ADMIN | Editar Clase',
+            'titulo'    => 'IE Portal  | Editar Clase',
             'extra_css' => '<link rel="stylesheet" href="' . base_url . 'public/css/system/Remisiones/index.css">',
             'extra_js'  => '<script src="' . base_url . 'public/js/system/clases/tabla_alumnos.js"></script>'.
                             '<script src="' . base_url . 'public/js/system/clases/tabla_horarios_clase.js"></script>'.
@@ -178,7 +178,7 @@ class Clases extends Controller
         ];
 
         $data = [
-            'titulo'    => 'IE ADMIN | Ver Clase',
+            'titulo'    => 'IE Portal | Ver Clase',
             'extra_css' => '<link rel="stylesheet" href="' . base_url . 'public/css/system/Remisiones/index.css">',
             'extra_js'  => '<script src="' . base_url . 'public/js/system/clases/tabla_alumnos.js"></script>'.
                             '<script src="' . base_url . 'public/js/system/clases/tabla_horarios_clase.js"></script>'.

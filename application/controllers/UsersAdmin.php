@@ -23,7 +23,7 @@ class UsersAdmin extends Controller
 
         //Titulo de la pagina y archivos css y js necesarios
 		$data = [
-            'titulo'    => 'IE ADMIN | Usuarios',
+            'titulo'    => 'IE Portal | Usuarios',
             'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/admin/index.css">',
             'extra_js'  => '<script src="'. base_url . 'public/js/admin/index.js"></script>'
         ];
@@ -104,7 +104,7 @@ class UsersAdmin extends Controller
 
         //Titulo de la pagina y archivos css y js necesarios
 		$data = [
-            'titulo'    => 'IE ADMIN | Crear User',
+            'titulo'    => 'IE Portal | Crear User',
             'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/admin/crearUser.css">',
             'extra_js'  => '<script src="'. base_url . 'public/js/admin/crearUser.js"></script>'
         ];
@@ -179,7 +179,7 @@ class UsersAdmin extends Controller
 
         //Titulo de la pagina y archivos css y js necesarios
 		$data = [
-            'titulo'    => 'IE ADMIN | Editar User',
+            'titulo'    => 'IE Portal | Editar User',
             'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/admin/editarUser.css">',
             'extra_js'  => '<script src="'. base_url . 'public/js/admin/editarUser.js"></script>'
         ];
@@ -299,7 +299,7 @@ class UsersAdmin extends Controller
 
         //Titulo de la pagina y archivos css y js necesarios
 		$data = [
-            'titulo'    => 'IE ADMIN | Ver User',
+            'titulo'    => 'IE Portal | Ver User',
             'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/admin/verUser.css">',
             'extra_js'  => '<script src="'. base_url . 'public/js/admin/verUser.js"></script>'
         ];

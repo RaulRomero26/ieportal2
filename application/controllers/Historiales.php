@@ -41,7 +41,7 @@
 			}
 
 			$data = [
-				'titulo'    => 'IE ADMIN | Historial',
+				'titulo'    => 'IE Portal | Historial',
 				'extra_css' => '<link rel="stylesheet" href="'. base_url . 'public/css/admin/index.css">',
 				'extra_js'  => '<script src="'. base_url . 'public/js/system/historial/index.js"></script>'
 			];

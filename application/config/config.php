@@ -2,15 +2,15 @@
     
     define('app_path', dirname(dirname(__FILE__)));     //Ruta de la app
     define('BASE_PATH', realpath(dirname(__FILE__) . '/../..').'/'); //BASE_PATH del proyecto
-    define('base_url', 'http://localhost/ieadmin/'); //Ruta de la url
+    define('base_url', 'http://localhost/ieportal2/'); //Ruta de la url
 
-    define('site_name', 'IE Admin');       //Nombre del sitio
+    define('site_name', 'IE Portal');       //Nombre del sitio
 
     //Configuración de acceso a la base de datos
     define ('DB_HOST', 'localhost');
     define ('DB_USER', 'root');
     define ('DB_PASSWORD', '');
-    define ('DB_NAME', 'ieadmin');
+    define ('DB_NAME', 'ieportal');
 
     //key de encryptación de información
     define ('CRYPTO_KEY', 'planeacion_xdlol123');
@@ -20,9 +20,6 @@
      //globals CLASES IE
      define('MIN_FILTRO_CIE', 1);
      define('MAX_FILTRO_CIE', 2);
-     //globals GESTOS DE CASOS
-     define('MIN_FILTRO_GC', 1);
-     define('MAX_FILTRO_GC', 2);
     //globales USUARIOS
     define('MIN_FILTRO_USER', 1);
     define('MAX_FILTRO_USER', 3);

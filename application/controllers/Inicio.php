@@ -20,7 +20,7 @@ class Inicio extends Controller
         }
 
         $data = [
-            'titulo'    => 'IE ADMIN | Inicio'
+            'titulo'    => 'IE Portal | Inicio'
         ];
         
         $this->view('templates/header', $data);

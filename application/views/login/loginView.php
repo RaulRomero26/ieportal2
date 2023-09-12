@@ -24,7 +24,7 @@
                 <div class=" col-lg-12 mt-n3">
                     <div class="text-center">
                         <img src="<?php echo base_url; ?>public/media/images/ielogo.png" class="mt-4 mb-3 logo" >
-                        <h5 class="card-title mb-5 mt-3 col-12">Sistema de Administración IE</h5>
+                        <h5 class="card-title mb-5 mt-3 col-12">Sistema para Alumnos IE</h5>
                         <form action="<?= base_url;?>Login/login" method="POST" class="needs-validation" novalidate autocomplete="off">
                             <div class="form-row  mb-5 container-fluid">
                                 <div class="col-md-12 col-lg-5 mb-lg-3 mb-md-1 mt-lg-1">
